@@ -1,0 +1,224 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Titillium Web', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*****************col start here*********************/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+
+
+
+.col-lg-3{
+	width: 25%;
+	float: left;
+
+}
+
+.col-lg-9{
+    width: 75%;
+	float: left;
+
+}
+
+.col-lg-12{
+    width: 100%;
+	float: left;
+}/*****************col end here*********************/
+
+/*****************Header start here*********************/
+.header{
+	width: 100%;
+	float: left;
+	background:#86509C;
+	padding: 20px 0px;
+}
+
+.header .logo{
+	width: 100%;
+	float: left;
+	margin: 0px 0px 0px 90px;
+}
+
+.header .logo img{
+	width: 90px;
+}
+
+.header .menu{
+	float: right;
+	margin: 0px 60px 0px 0px;
+}
+
+.header .menu ul{
+	display:  block;
+}
+
+.header .menu ul li{
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px 0px 0px;
+}
+
+.header .menu ul li a{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px 10px;
+	padding: 5px 10px;
+}
+
+.header .menu ul li a:hover, .header .menu ul li a:focus{
+	font-size: 16px;
+	color: #fff;
+	background: #653B7A;
+}
+
+/*****************Header end here*********************/
+
+/*****************bannar start here*********************/
+.banner{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background:#86509C;
+	padding: 90px 0px;
+}
+.banner h3{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 600;
+	color: #fff;
+} 
+
+.banner button{
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background: #EB7D4A;
+	margin-top: 30px;
+	padding: 20px 60px;
+	border: 1px solid #EB7D4A;
+	border-radius: 3px; 
+	transition:1s ;
+
+}
+.banner button:hover{
+	letter-spacing: 2px;
+}
+/*****************nanner end here*********************/
+
+/*****************Feature start here*********************/
+.feature{
+	width: 100%;
+	float: left;
+	background: #17C1A4;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+
+.feature .box{
+	width: 100%;
+	text-align: center;
+	margin: 40px 0px;
+}
+.feature .box h3{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 10px 0px 0px;
+}
+
+
+.feature .box img{
+	width: 80px;
+	height: 4px;
+
+}
+
+.feature .box p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	padding: 8px 0px 0px;
+}
+
+.feature .rebeka{
+	width: 95%;
+	margin: 0px auto;
+}
+.feature .rebeka .inner-box{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 30px 0px;
+}
+.feature .rebeka .inner-box img{
+	width: 90px;
+	height: 80px;
+}
+.feature .rebeka .inner-box h4{
+    font-size: 20px; 	
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 30px 0px 10px;
+}
+
+
+.feature .rebeka .inner-box p{
+	font-size:14px ;
+   	line-height: 24px;
+	font-weight: 300;
+	color: #fff; 
+	padding: 8px 0px 0px;
+}
+
+.footer{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background:#86509C;
+}
+	
+.footer p{
+	font-size: 16px;
+	color: #eee;
+	padding: 15px 0px;
+}
+.footer span a{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
